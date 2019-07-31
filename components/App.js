@@ -11,7 +11,7 @@ getInitialState() {
 getGif: function(searchingText, callback) {  
     var GIPHY_API_URL = 'https://api.giphy.com';
     var GIPHY_PUB_KEY = 'fKzLWXW1Fhec0lzGrlx5GOfgEUFOueFw';
-    var url = GIPHY_API_URL + '/v1/gifs/search?api_key=' + GIPHY_PUB_KEY + '&tag=' + searchingText;  
+    var url = GIPHY_API_URL + '/v1/gifs/random?api_key=' + GIPHY_PUB_KEY + '&tag=' + searchingText;  
     var xhr = new XMLHttpRequest();  
     xhr.open('GET', url);
     xhr.onload = function() {
