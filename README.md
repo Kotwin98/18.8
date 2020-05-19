@@ -1,3 +1,2 @@
-# 18.8
-
-https://kotwin98.github.io/18.8/
+# gif-search
+### [DEMO](https://kotwin98.github.io/gif-search/)
